@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        {/* ⭐ Prevent flash of wrong theme - runs before React */}
+        {/* ⭐ Prevent flash of wrong theme - runs before React test */}
         <script
           dangerouslySetInnerHTML={{
             __html: `
